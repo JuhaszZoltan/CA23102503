@@ -1,0 +1,29 @@
+﻿public class Orszag {
+
+    String orszagNev; 
+    int terulet; 
+    int nepesseg; 
+    String fovaros; 
+    int fovarosNepesseg; 
+
+    public Orszag(String orszag, int terulet, int nepesseg, String fovaros, int fovarosNepesseg) {
+        this.orszagNev = orszag;
+        this.terulet = terulet;
+        this.nepesseg = nepesseg;
+        this.fovaros = fovaros;
+        this.fovarosNepesseg = fovarosNepesseg;
+    }
+
+    public Orszag(String sor) {
+        // Ebben a konstruktorban is elvégezheti az adatsor felbontását!
+        // Ha nem ezt választja, akkor törölje ezt a konstruktort!
+    }
+    
+    
+
+    @Override
+    public String toString() {
+        return "";
+    }
+
+}
